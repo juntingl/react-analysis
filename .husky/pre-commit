@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# 当代码量少时，使用此命令进行全量检查还是很快的，随之代码量的增多会越来越慢
+# pnpm lint
+# 代码量上来，速度慢下来了，使用增量检查
+npx lint-staged
