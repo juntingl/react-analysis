@@ -1,0 +1,8 @@
+{
+	"name": "shared",
+	"version": "0.0.1",
+	"description": "公用辅助方法及类型定义",
+	"keywords": [],
+	"author": "",
+	"license": "MIT"
+}
